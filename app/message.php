@@ -4,7 +4,7 @@
 
 "error.login" => "Username and Password did not match with our records.",
 
-"success.login" => "Login Successful";
+"success.login" => "Login Successful"
 
 
 
