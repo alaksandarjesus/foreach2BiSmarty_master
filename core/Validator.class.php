@@ -185,19 +185,19 @@ class Validator{
 	private static function size_min($key,$size,$min_size){
 		$size=$size/1024;
 		$return="The allowed file size for $key should be minimum $min_size kB";
-		if($size<$extensions){$return=true;}
+		if($size<$min_size){$return=true;}
 		return $return;
 		}
 	private static function size_max($key,$size,$max_size){
 		$size=$size/1024;
 		$return="The allowed file size for $key should be maximum $max_size kB";
-		if($size>$extensions){$return=true;}
+		if($size>$max_size){$return=true;}
 		return $return;
 		}
 	private static function size_exact($key,$size,$exact_size){
 		$size=$size/1024;
 		$return="The allowed file size for $key should be exactly $exact_size kB";
-		if($size==$extensions){$return=true;}
+		if($size==$exact_size){$return=true;}
 		return $return;
 		}
 	private static function size_between($key,$size,$extensions){
