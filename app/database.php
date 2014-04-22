@@ -7,7 +7,7 @@
 							'username'  => '',
 							'password'  => '',
 							'charset'   => 'utf8',
-							'collation' => 'utf8_unicode_ci',
+							
 							),
 
 //The second database(optional)
@@ -18,7 +18,7 @@
 							'username'  => '',
 							'password'  => '',
 							'charset'   => 'utf8',
-							'collation' => 'utf8_unicode_ci',
+							
 							),
 
 //You are free to add any number of database depending on your requirement.
