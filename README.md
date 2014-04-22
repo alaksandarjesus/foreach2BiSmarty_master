@@ -2,9 +2,9 @@
 
 This MVC is tested with PHP 5.5.
 
-And have packed with latest version of other supporting packages as on April 22 2013.
+And have packed with latest version of other supporting packages as on April 22 2014.
 
-The current version is Ver.0.0.1 dated 20 April 2013.
+The current version is Ver.0.0.1 dated 20 April 2014.
 
 Though the basic coding was written by us, we have incorporated some famous opensource project that were supportive to us in the past and we share our credits to
 
